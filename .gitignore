@@ -154,3 +154,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 
 DerivedDataCache/*
+FPSProject/Saved/Logs/FPSProject.log
