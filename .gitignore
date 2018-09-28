@@ -132,7 +132,7 @@ Build/*/**
 *_BuiltData.uasset
 
 # Content Files
-FPSProject/Content/*
+!FPSProject/Content/*
 !FPSProject/Content/5329_Goblins/
 
 
