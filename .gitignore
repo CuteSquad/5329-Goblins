@@ -100,7 +100,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 
-Binaries/*
+FPSProject/Binaries/*
 
 
 Plugins/*/Binaries/*
