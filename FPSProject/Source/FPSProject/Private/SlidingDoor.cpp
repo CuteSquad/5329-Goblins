@@ -72,7 +72,7 @@ void ASlidingDoor::BeginPlay()
 		CurveFloat->FloatCurve.AddKey(2.5, 1);
 	}
 
-	// Door
+	// Door Setup
 	CurrentLocation = StaticMeshComponent->GetComponentLocation();
 }
 
@@ -89,15 +89,15 @@ void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* Other
 	Timeline->Play();
 
 	const float TimelineValue = Timeline->GetPlaybackPosition();
-	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue);
+	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue); // Get the value of the timeline and feed into the curve float for lerping between start and end locations
 
 	if (Sideways)
-		EndLocation = FVector(CurrentLocation.X - XSlide, CurrentLocation.Y - YSlide, CurrentLocation.Z);
+		EndLocation = FVector(CurrentLocation.X - XSlide, CurrentLocation.Y - YSlide, CurrentLocation.Z); // Minus the X or Y axis to set the end location
 	else
-		EndLocation = FVector(CurrentLocation.X, CurrentLocation.Y, CurrentLocation.Z - ZSlide);
+		EndLocation = FVector(CurrentLocation.X, CurrentLocation.Y, CurrentLocation.Z - ZSlide); // Minus the Z axis to set the end location
 
-	StaticMeshComponent->SetWorldLocation(FMath::Lerp(CurrentLocation, EndLocation, CurveFloatValue));
+	StaticMeshComponent->SetWorldLocation(FMath::Lerp(CurrentLocation, EndLocation, CurveFloatValue)); // Move the door smoothly from current location to the end location
 
 	if (IsValid(TriggerBoxComponent) && CurveFloat != nullptr)
-		TriggerBoxComponent->DestroyComponent();
+		TriggerBoxComponent->DestroyComponent(); // Destroy the trigger box once the door has opened.
 }
