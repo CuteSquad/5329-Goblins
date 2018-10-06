@@ -1,6 +1,7 @@
 // Copyright © 2018, AJACKS
 
 #include "SlidingDoor.h"
+#include <functional>
 
 ASlidingDoor::ASlidingDoor()
 {
@@ -48,7 +49,6 @@ void ASlidingDoor::BeginPlay()
 
 	// Timeline Setup
 	FOnTimelineFloat OnTimelineCallback;
-
 	OnTimelineCallback.BindUFunction(this, "Slide");
 
 	if (CurveFloat != nullptr)
@@ -62,6 +62,14 @@ void ASlidingDoor::BeginPlay()
 		Timeline->AddInterpFloat(CurveFloat, OnTimelineCallback);
 		Timeline->SetTimelineLength(Speed);
 		Timeline->RegisterComponent();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("No Curve Float object found!"));
+
+		CurveFloat = NewObject<UCurveFloat>(this, UCurveFloat::StaticClass(), FName("DoorSlideTime"));
+		CurveFloat->FloatCurve.AddKey(0, 0);
+		CurveFloat->FloatCurve.AddKey(2.5, 1);
 	}
 
 	// Door
@@ -84,12 +92,12 @@ void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* Other
 	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue);
 
 	if (Sideways)
-		EndLocation = FVector(CurrentLocation.X, CurrentLocation.Y - YSlide, CurrentLocation.Z);
+		EndLocation = FVector(CurrentLocation.X - XSlide, CurrentLocation.Y - YSlide, CurrentLocation.Z);
 	else
 		EndLocation = FVector(CurrentLocation.X, CurrentLocation.Y, CurrentLocation.Z - ZSlide);
 
 	StaticMeshComponent->SetWorldLocation(FMath::Lerp(CurrentLocation, EndLocation, CurveFloatValue));
 
-	if (IsValid(TriggerBoxComponent))
+	if (IsValid(TriggerBoxComponent) && CurveFloat != nullptr)
 		TriggerBoxComponent->DestroyComponent();
 }

@@ -46,11 +46,14 @@ private:
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "Should the door slide sideways?"))
 		bool Sideways = false;
 
-	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How far should the door slide on the Z-Axis?", EditCondition = "Sideways"))
+	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How far should the door slide on the X-Axis?", EditCondition = "Sideways"))
+		float XSlide = 300;
+
+	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How far should the door slide on the Y-Axis?", EditCondition = "Sideways"))
 		float YSlide = 300;
 
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How far should the door slide on the Z-Axis?", EditCondition = "!Sideways"))
-		float ZSlide = 300;
+		float ZSlide = 350;
 
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How fast should the door slide? 0 = no movement, 1 = normal, 2+ = fast"))
 		float Speed = 1;
