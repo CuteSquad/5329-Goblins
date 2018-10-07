@@ -55,7 +55,7 @@ private:
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How many units should the door slide on the Z-Axis?", EditCondition = "!Sideways"))
 		float ZSlide = 350;
 
-	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How fast should the door slide? 0 = no movement, 1 = normal, 2+ = fast"))
+	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How fast should the door slide? (0=No movement 1=Normal 2+=Fast)"))
 		float Speed = 1;
 
 	FVector CurrentLocation = FVector(0, 0, 0); // For reference when we begin play, so we can Lerp between start and end location

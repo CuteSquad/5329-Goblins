@@ -35,9 +35,6 @@ ASlidingDoor::ASlidingDoor()
 	// Timeline Component
 	Timeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("Timeline Component"));
 
-	// Curve Float
-	CurveFloat = Cast<UCurveFloat>(StaticLoadObject(UCurveFloat::StaticClass(), nullptr, TEXT("CurveFloat'/Game/5329_Goblins/DoorSlideTime.DoorSlideTime'")));
-	
 	// Other settings
 	this->bCanBeDamaged = false;
 }
@@ -89,7 +86,7 @@ void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* Other
 	Timeline->Play();
 
 	const float TimelineValue = Timeline->GetPlaybackPosition();
-	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue); // Get the value of the timeline and feed into the curve float for lerping between start and end locations
+	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue); // Get the value of the timeline and feed into the curve float for lerping between start and end location
 
 	if (Sideways)
 		EndLocation = FVector(CurrentLocation.X - XSlide, CurrentLocation.Y - YSlide, CurrentLocation.Z); // Minus the X or Y axis to set the end location
