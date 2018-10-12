@@ -1586,3 +1586,146 @@ LogInit: Object subsystem initialized
 [2018.10.11-23.58.09:797][237]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/BossLevelBB78BEB0486E015AC9788D98F76A149D.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap'
 [2018.10.11-23.58.09:807][237]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap
 [2018.10.11-23.58.09:835][237]LogFileHelpers: Saving map 'BossLevel' took 1.525
+[2018.10.11-23.59.55:916][524]LogActorFactory: Actor Factory created Plane
+[2018.10.11-23.59.57:270][686]LogActorFactory: Actor Factory created Plane
+[2018.10.12-00.00.21:050][282]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.12-00.00.21:071][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/5329_Goblins/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2018.10.12-00.00.21:071][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.12-00.00.21:072][282]PIE: New page: PIE session: BossLevel (12 Oct 2018 10:00:21 pm)
+[2018.10.12-00.00.21:072][282]LogPlayLevel: Creating play world package: /Game/5329_Goblins/Maps/UEDPIE_0_BossLevel
+[2018.10.12-00.00.21:090][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018776s)
+[2018.10.12-00.00.21:091][282]LogAIModule: Creating AISystem for world BossLevel
+[2018.10.12-00.00.21:091][282]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.10.12-00.00.21:092][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/5329_Goblins/Maps/BossLevel.BossLevel to /Game/5329_Goblins/Maps/UEDPIE_0_BossLevel.BossLevel (0.020152s)
+[2018.10.12-00.00.21:150][282]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.12-00.00.21:158][282]LogWorld: Bringing World /Game/5329_Goblins/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 0) at 2018.10.12-11.00.21
+[2018.10.12-00.00.21:158][282]LogWorld: Bringing up level for play took: 0.001404
+[2018.10.12-00.00.21:159][282]PIE: Play in editor start time for /Game/5329_Goblins/Maps/UEDPIE_0_BossLevel -0.274
+[2018.10.12-00.00.21:159][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/5329_Goblins/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2018.10.12-00.00.30:308][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/5329_Goblins/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2018.10.12-00.00.30:341][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/5329_Goblins/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2018.10.12-00.00.37:022][754]LogSavePackage: Save=1306.05ms
+[2018.10.12-00.00.37:022][754]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/BossLevel36B6F8FF496CA6CB3E33F6AFCC5B8737.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap'
+[2018.10.12-00.00.37:029][754]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap
+[2018.10.12-00.00.37:053][754]LogFileHelpers: Saving map 'BossLevel' took 1.433
+[2018.10.12-00.01.17:163][298]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.10.12-00.01.21:434][762]Cmd: SELECT NONE
+[2018.10.12-00.01.27:335][245]LogSavePackage: Save=1317.83ms
+[2018.10.12-00.01.27:335][245]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/BossLevel32F1AF9D40F86A881ED4D9A2242EFDB4.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap'
+[2018.10.12-00.01.27:343][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/BossLevel.umap
+[2018.10.12-00.01.27:366][245]LogFileHelpers: Saving map 'BossLevel' took 1.444
+[2018.10.12-00.01.53:011][568]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.01.57:065][686]LogSavePackage: Save=1311.67ms
+[2018.10.12-00.01.57:065][686]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/AITestLevelCF2DCAC942D223B3CD24AF944A82E3D4.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap'
+[2018.10.12-00.01.57:071][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap
+[2018.10.12-00.01.57:076][686]LogFileHelpers: Saving map 'AITestLevel' took 1.419
+[2018.10.12-00.01.57:078][686]Cmd: MAP LOAD FILE="../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.12-00.01.57:079][686]LightingResults: New page: Lighting Build
+[2018.10.12-00.01.57:079][686]LoadErrors: New page: Loading map: AITestLevel.umap
+[2018.10.12-00.01.57:080][686]MapCheck: New page: Map Check
+[2018.10.12-00.01.57:080][686]LightingResults: New page: Lighting Build
+[2018.10.12-00.01.57:814][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.12-00.01.57:860][686]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.12-00.01.57:936][686]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.889ms to complete.
+[2018.10.12-00.01.57:938][686]LogFileHelpers: Loading map 'AITestLevel' took 0.861
+[2018.10.12-00.02.00:324][922]Cmd: MAP LOAD FILE="../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.12-00.02.00:324][922]LightingResults: New page: Lighting Build
+[2018.10.12-00.02.00:325][922]LoadErrors: New page: Loading map: AITestLevel.umap
+[2018.10.12-00.02.00:325][922]MapCheck: New page: Map Check
+[2018.10.12-00.02.00:325][922]LightingResults: New page: Lighting Build
+[2018.10.12-00.02.00:517][922]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.02.01:120][922]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.12-00.02.01:161][922]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.12-00.02.01:234][922]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.316ms to complete.
+[2018.10.12-00.02.01:236][922]LogFileHelpers: Loading map 'AITestLevel' took 0.912
+[2018.10.12-00.02.21:809][265]LogEditor: Attempting to add actor of class 'Ladder' to level at -1130.00,710.00,0.00
+[2018.10.12-00.02.22:550][350]LogEditor: Attempting to add actor of class 'Ladder' to level at -60.00,-660.00,0.00
+[2018.10.12-00.02.32:121][410]LogTemp: Repeating last play command: Standalone Game
+[2018.10.12-00.02.35:252][410]LogSavePackage: Save=1865.09ms
+[2018.10.12-00.02.35:252][410]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/AITestLevelB66F4F184170F30EE97FD6861BED2ABA.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap'
+[2018.10.12-00.02.35:260][410]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap
+[2018.10.12-00.02.35:286][410]LogFileHelpers: Saving map 'AITestLevel' took 2.015
+[2018.10.12-00.03.15:723][609]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.10.12-00.04.18:279][505]LogAIModule: Creating AISystem for world MainWorld
+[2018.10.12-00.04.20:563][505]LogSavePackage: Save=1335.62ms
+[2018.10.12-00.04.20:563][505]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/AITestLevel98F340BB454616FA03AD0195E0FA6A56.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap'
+[2018.10.12-00.04.20:580][505]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap
+[2018.10.12-00.04.20:603][505]LogFileHelpers: Saving map 'AITestLevel' took 1.477
+[2018.10.12-00.04.20:604][505]Cmd: MAP LOAD FILE="../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.12-00.04.20:604][505]LightingResults: New page: Lighting Build
+[2018.10.12-00.04.20:605][505]LoadErrors: New page: Loading map: MainWorld.umap
+[2018.10.12-00.04.20:606][505]MapCheck: New page: Map Check
+[2018.10.12-00.04.20:606][505]LightingResults: New page: Lighting Build
+[2018.10.12-00.04.21:486][505]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.12-00.04.21:531][505]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.12-00.04.21:608][505]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.407ms to complete.
+[2018.10.12-00.04.21:608][505]LogFileHelpers: Loading map 'MainWorld' took 1.004
+[2018.10.12-00.04.27:535][160]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight26)
+[2018.10.12-00.04.34:331][880]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.04.34:353][880]Cmd: MAP LOAD FILE="../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.12-00.04.34:353][880]LightingResults: New page: Lighting Build
+[2018.10.12-00.04.34:353][880]LoadErrors: New page: Loading map: AITestLevel.umap
+[2018.10.12-00.04.34:361][880]MapCheck: New page: Map Check
+[2018.10.12-00.04.34:361][880]LightingResults: New page: Lighting Build
+[2018.10.12-00.04.35:095][880]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.12-00.04.35:162][880]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.12-00.04.35:241][880]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.857ms to complete.
+[2018.10.12-00.04.35:241][880]LogFileHelpers: Loading map 'AITestLevel' took 0.889
+[2018.10.12-00.04.36:904][ 56]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.12-00.04.49:892][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.04.49:892][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.12-00.04.49:892][398]PIE: New page: PIE session: AITestLevel (12 Oct 2018 10:04:49 pm)
+[2018.10.12-00.04.49:892][398]LogPlayLevel: Creating play world package: /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel
+[2018.10.12-00.04.49:923][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030492s)
+[2018.10.12-00.04.49:923][398]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.04.49:924][398]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2018.10.12-00.04.49:924][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/5329_Goblins/Maps/AITestLevel.AITestLevel to /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel (0.031612s)
+[2018.10.12-00.04.49:970][398]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.12-00.04.49:971][398]LogWorld: Bringing World /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel up for play (max tick rate 0) at 2018.10.12-11.04.49
+[2018.10.12-00.04.49:972][398]LogWorld: Bringing up level for play took: 0.001108
+[2018.10.12-00.04.49:972][398]PIE: Play in editor start time for /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel 0.551
+[2018.10.12-00.04.49:973][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.05.05:196][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.05.05:226][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.05.12:958][834]LogSavePackage: Save=1860.38ms
+[2018.10.12-00.05.12:958][834]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/AITestLevelB4BAD80D43B79EC24F782B96959E1605.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap'
+[2018.10.12-00.05.12:965][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap
+[2018.10.12-00.05.12:989][834]LogFileHelpers: Saving map 'AITestLevel' took 1.985
+[2018.10.12-00.05.26:777][310]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.12-00.06.03:097][345]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.12-00.06.03:113][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.03:113][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.12-00.06.03:114][345]PIE: New page: PIE session: AITestLevel (12 Oct 2018 10:06:03 pm)
+[2018.10.12-00.06.03:114][345]LogPlayLevel: Creating play world package: /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel
+[2018.10.12-00.06.03:132][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017776s)
+[2018.10.12-00.06.03:132][345]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.06.03:133][345]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2018.10.12-00.06.03:133][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/5329_Goblins/Maps/AITestLevel.AITestLevel to /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel (0.018949s)
+[2018.10.12-00.06.03:177][345]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.12-00.06.03:179][345]LogWorld: Bringing World /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel up for play (max tick rate 0) at 2018.10.12-11.06.03
+[2018.10.12-00.06.03:179][345]LogWorld: Bringing up level for play took: 0.001227
+[2018.10.12-00.06.03:180][345]PIE: Play in editor start time for /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel -0.238
+[2018.10.12-00.06.03:180][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.09:422][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.09:450][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.12:252][404]LogEditorViewport: Clicking on Actor (LMB): Ladder (Ladder1)
+[2018.10.12-00.06.26:020][912]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.12-00.06.26:036][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.26:036][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.12-00.06.26:036][912]PIE: New page: PIE session: AITestLevel (12 Oct 2018 10:06:26 pm)
+[2018.10.12-00.06.26:036][912]LogPlayLevel: Creating play world package: /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel
+[2018.10.12-00.06.26:056][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019448s)
+[2018.10.12-00.06.26:057][912]LogAIModule: Creating AISystem for world AITestLevel
+[2018.10.12-00.06.26:057][912]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2018.10.12-00.06.26:057][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/5329_Goblins/Maps/AITestLevel.AITestLevel to /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel (0.020672s)
+[2018.10.12-00.06.26:102][912]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.12-00.06.26:104][912]LogWorld: Bringing World /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel.AITestLevel up for play (max tick rate 0) at 2018.10.12-11.06.26
+[2018.10.12-00.06.26:104][912]LogWorld: Bringing up level for play took: 0.001149
+[2018.10.12-00.06.26:105][912]PIE: Play in editor start time for /Game/5329_Goblins/Maps/UEDPIE_0_AITestLevel 0.688
+[2018.10.12-00.06.26:105][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.47:099][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.47:132][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel' with GeneratedClass '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel_C' with ClassGeneratedBy '/Game/5329_Goblins/Maps/AITestLevel.AITestLevel:PersistentLevel.AITestLevel'
+[2018.10.12-00.06.56:089][260]LogSavePackage: Save=1338.29ms
+[2018.10.12-00.06.56:089][260]LogSavePackage: Moving '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/AITestLevelBB0148FD46A2A4E11E4B7AB4CBD99C52.tmp' to '../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap'
+[2018.10.12-00.06.56:104][260]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/AITestLevel.umap
+[2018.10.12-00.06.56:128][260]LogFileHelpers: Saving map 'AITestLevel' took 1.479
