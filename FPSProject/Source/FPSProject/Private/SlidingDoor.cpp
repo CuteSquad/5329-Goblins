@@ -1,7 +1,6 @@
 // Copyright © 2018, AJACKS
 
 #include "SlidingDoor.h"
-#include <functional>
 
 ASlidingDoor::ASlidingDoor()
 {
