@@ -34,6 +34,9 @@ ASlidingDoor::ASlidingDoor()
 	// Timeline Component
 	Timeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("Timeline Component"));
 
+	// Curve Float default
+	CurveFloat = Cast<UCurveFloat>(StaticLoadObject(UCurveFloat::StaticClass(), nullptr, TEXT("CurveFloat'/Game/5329_Goblins/CurveFloats/DoorSlideTime.DoorSlideTime'")));
+
 	// Other settings
 	this->bCanBeDamaged = false;
 }
