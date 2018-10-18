@@ -155,3 +155,6 @@ Plugins/*/Intermediate/*
 
 DerivedDataCache/*
 FPSProject/Saved/Logs/FPSProject.log
+*.ini
+*.bin
+*.log

@@ -1,4 +1,4 @@
-﻿Log file open, 10/18/18 13:50:46
+﻿Log file open, 10/18/18 13:56:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FPSProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-498550947) SRandInit(-498550947).
+LogInit: Display: RandInit(2080256324) SRandInit(2080256324).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.152921
+LogStats: Stats thread started at 0.156215
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Binaries/Win64/UE4Editor-FPSProject.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Binaries/Win64/UE4Editor-FPSProject-7397.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -197,207 +197,191 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.18-02.50.48:259][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.18-02.50.48:259][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.18-02.50.48:269][  0]LogInit: Computer: SYD-49F74C
-[2018.10.18-02.50.48:269][  0]LogInit: User: s181529
-[2018.10.18-02.50.48:269][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.18-02.50.48:269][  0]LogInit: High frequency timer resolution =3.328320 MHz
-[2018.10.18-02.50.48:269][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.10.18-02.50.48:269][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.18-02.50.48:269][  0]LogMemory: Process Physical Memory: 275.96 MB used, 275.96 MB peak
-[2018.10.18-02.50.48:269][  0]LogMemory: Process Virtual Memory: 273.61 MB used, 273.61 MB peak
-[2018.10.18-02.50.48:269][  0]LogMemory: Physical Memory: 6736.54 MB used,  25967.91 MB free, 32704.45 MB total
-[2018.10.18-02.50.48:269][  0]LogMemory: Virtual Memory: 628.43 MB used,  25967.91 MB free, 8388608.00 MB total
-[2018.10.18-02.50.48:451][  0]LogInit: Using OS detected language (en-AU).
-[2018.10.18-02.50.48:451][  0]LogInit: Using OS detected locale (en-AU).
-[2018.10.18-02.50.48:455][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
-[2018.10.18-02.50.48:788][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.10.18-02.50.48:788][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.10.18-02.50.48:788][  0]LogInit: Setting process to DPI aware
-[2018.10.18-02.50.48:793][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.10.18-02.50.48:793][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.10.18-02.50.48:793][  0]LogInit: Setting process to DPI aware
-[2018.10.18-02.50.49:081][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.18-02.50.49:101][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.10.18-02.50.49:101][  0]LogD3D11RHI:       4007/0/16096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.10.18-02.50.49:101][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.18-02.50.49:106][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.18-02.50.49:106][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.18-02.50.49:106][  0]LogWindows: EnumDisplayDevices:
-[2018.10.18-02.50.49:106][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.10.18-02.50.49:106][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.10.18-02.50.49:106][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.10.18-02.50.49:106][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.10.18-02.50.49:106][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.10.18-02.50.49:107][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.10.18-02.50.49:107][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.10.18-02.50.49:107][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.18-02.50.49:107][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.10.18-02.50.49:107][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
-[2018.10.18-02.50.49:107][  0]LogD3D11RHI:      Driver Date: 12-11-2016
-[2018.10.18-02.50.49:107][  0]LogRHI: Texture pool is 2805 MB (70% of 4007 MB)
-[2018.10.18-02.50.49:115][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.18-02.50.49:129][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.18-02.50.49:223][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Intermediate/Shaders/WorkingDirectory/8620/).
-[2018.10.18-02.50.49:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s181529/AppData/Local/Temp/UnrealShaderWorkingDir/0B91868E41DBC75718724699754C3BEE/'.
-[2018.10.18-02.50.49:223][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.18-02.50.50:063][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.18-02.50.50:126][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.18-02.50.50:189][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.18-02.50.50:253][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.18-02.50.50:316][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.18-02.50.50:379][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.18-02.50.50:442][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.18-02.50.50:506][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.18-02.50.50:565][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.18-02.50.50:627][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.10.18-02.50.50:692][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.10.18-02.50.50:755][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.10.18-02.50.50:817][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.10.18-02.50.50:881][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.10.18-02.50.51:006][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.10.18-02.50.51:006][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.10.18-02.50.51:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-02.50.51:123][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.18-02.50.51:227][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.18-02.50.51:256][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.18-02.50.51:319][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.18-02.50.51:381][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.18-02.50.51:443][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.18-02.50.51:508][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.18-02.50.51:508][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.18-02.50.52:062][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/s181529/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s181529/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.18-02.50.52:134][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.18-02.50.52:150][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.18-02.50.52:162][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s181529/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.18-02.50.52:171][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.18-02.50.52:172][  0]LogSlate: Using Freetype 2.6.0
-[2018.10.18-02.50.52:173][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.18-02.50.52:173][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.18-02.50.52:580][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.18-02.50.52:965][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.18-02.50.53:020][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.18-02.50.53:020][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.18-02.50.53:020][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.18-02.50.53:020][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.10.18-02.50.53:020][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.10.18-02.50.53:051][  0]LogNetVersion: FPSProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2209681646)
-[2018.10.18-02.50.53:221][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
-[2018.10.18-02.50.53:762][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.087587 seconds
-[2018.10.18-02.50.53:767][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2018.10.18-02.50.53:767][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2018.10.18-02.50.53:767][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.18-02.50.53:827][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.10.18-02.50.56:966][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.18-02.50.57:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.18-02.50.57:634][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
-[2018.10.18-02.50.57:634][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Assets/Goblin.uasset.
-[2018.10.18-02.50.57:634][  0]LoadErrors: Error: /Game/5329_Goblins/Assets/Goblin : Can't find file for asset. /Game/5329_Goblins/Assets/Basic
-[2018.10.18-02.50.57:634][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
-[2018.10.18-02.50.57:634][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Assets/Goblin.uasset.
-[2018.10.18-02.50.57:634][  0]LoadErrors: Error: /Game/5329_Goblins/Assets/Goblin : Can't find file for asset. /Game/5329_Goblins/Assets/Basic
-[2018.10.18-02.50.57:635][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
-[2018.10.18-02.50.57:635][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by Goblin
-[2018.10.18-02.50.57:635][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading NULL.
-[2018.10.18-02.50.57:635][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by Goblin
-[2018.10.18-02.50.57:635][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
-[2018.10.18-02.50.57:635][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by Goblin
-[2018.10.18-02.50.57:636][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading NULL.
-[2018.10.18-02.50.57:636][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by Goblin
-[2018.10.18-02.50.57:942][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.10.18-02.50.58:483][  0]SourceControl: Source control is disabled
-[2018.10.18-02.50.58:483][  0]SourceControl: Source control is disabled
-[2018.10.18-02.50.58:552][  0]SourceControl: Source control is disabled
-[2018.10.18-02.50.58:619][  0]SourceControl: Source control is disabled
-[2018.10.18-02.50.59:657][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.18-02.51.00:004][  0]LogOcInput: OculusInput pre-init called
-[2018.10.18-02.51.00:336][  0]LogEngine: Initializing Engine...
-[2018.10.18-02.51.00:338][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.18-02.51.00:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.18-02.51.00:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.18-02.51.00:743][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.18-02.51.00:758][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.18-02.51.00:793][  0]LogInit: FAudioDevice initialized.
-[2018.10.18-02.51.00:872][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/s181529/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.10.18-02.51.00:880][  0]LogInit: Texture streaming: Enabled
-[2018.10.18-02.51.00:998][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.18-02.51.01:169][  0]LogInit: Transaction tracking system initialized
-[2018.10.18-02.51.01:605][  0]BlueprintLog: New page: Editor Load
-[2018.10.18-02.51.02:784][  0]LocalizationService: Localization service is disabled
-[2018.10.18-02.51.03:730][  0]LogConsoleResponse: Display: 
-[2018.10.18-02.51.03:904][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.18-02.51.03:904][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.18-02.51.03:904][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.18-02.51.03:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/' took 0.01s
-[2018.10.18-02.51.05:414][  0]SourceControl: Source control is disabled
-[2018.10.18-02.51.05:414][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.18-02.51.05:414][  0]LightingResults: New page: Lighting Build
-[2018.10.18-02.51.05:476][  0]MapCheck: New page: Map Check
-[2018.10.18-02.51.05:476][  0]LightingResults: New page: Lighting Build
-[2018.10.18-02.51.05:682][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
-[2018.10.18-02.51.05:682][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap.
-[2018.10.18-02.51.05:682][  0]LoadErrors: Error: /Game/5329_Goblins/Maps/MainWorld : Can't find file for asset. /Game/5329_Goblins/Maps/MainWorld_BuiltData
-[2018.10.18-02.51.05:684][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
-[2018.10.18-02.51.05:684][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap.
-[2018.10.18-02.51.05:684][  0]LoadErrors: Error: /Game/5329_Goblins/Maps/MainWorld : Can't find file for asset. /Game/5329_Goblins/Maps/MainWorld_BuiltData
-[2018.10.18-02.51.05:686][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
-[2018.10.18-02.51.05:686][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
-[2018.10.18-02.51.05:686][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
-[2018.10.18-02.51.05:686][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
-[2018.10.18-02.51.05:841][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
-[2018.10.18-02.51.05:841][  0]LoadErrors: Failed to load /Game/5329_Goblins/Maps/MainWorld_BuiltData.MainWorld_BuiltData Referenced by PersistentLevel
-[2018.10.18-02.51.05:841][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
-[2018.10.18-02.51.05:841][  0]LoadErrors: Failed to load /Game/5329_Goblins/Maps/MainWorld_BuiltData.MainWorld_BuiltData Referenced by PersistentLevel
-[2018.10.18-02.51.06:151][  0]LogAIModule: Creating AISystem for world MainWorld
-[2018.10.18-02.51.06:198][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.18-02.51.06:213][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.18-02.51.06:276][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.622ms to complete.
-[2018.10.18-02.51.06:276][  0]LogFileHelpers: Loading map 'MainWorld' took 0.862
-[2018.10.18-02.51.06:474][  0]LogCollectionManager: Loaded 0 collections in 0.001143 seconds
-[2018.10.18-02.51.06:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Saved/Collections/' took 0.01s
-[2018.10.18-02.51.06:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/Developers/s181529/Collections/' took 0.01s
-[2018.10.18-02.51.06:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/Collections/' took 0.01s
-[2018.10.18-02.51.06:571][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.18-02.51.06:579][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2373 classes and 524 folders.
-[2018.10.18-02.51.06:663][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.10.18-02.51.06:701][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.10.18-02.51.06:740][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.18-02.51.06:743][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.18-02.51.06:745][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.18-02.51.06:831][  0]LogRenderer: Reallocating scene render targets to support 1016x556 Format 10 NumSamples 1 (Frame:1).
-[2018.10.18-02.51.07:074][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.10.18-02.51.07:074][  0]LogLoad: (Engine Initialization) Total time: 21.49 seconds
-[2018.10.18-02.51.07:074][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.18-02.51.07:074][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.10.18-02.51.07:111][  0]LogAssetRegistry: Asset discovery search completed in 13.9098 seconds
-[2018.10.18-02.51.07:113][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.18-02.51.07:113][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2018.10.18-02.51.07:116][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.18-02.51.07:184][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.10.18-02.51.07:196][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/' took 0.10s
-[2018.10.18-02.51.20:024][479]LogAIModule: Creating AISystem for world TESTPROTOTYPE
-[2018.10.18-02.51.21:787][678]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.10.18-02.51.24:193][678]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.18-02.51.25:414][678]LogSavePackage: Save=1932.84ms
-[2018.10.18-02.51.25:414][678]LogSavePackage: Moving '../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Saved/TESTPROTOTYPE18FE882B46A47B945062FFB57CC03ABC.tmp' to '../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/TESTPROTOTYPE.umap'
-[2018.10.18-02.51.25:420][678]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/TESTPROTOTYPE.umap
-[2018.10.18-02.51.25:443][678]LogFileHelpers: Saving map 'TESTPROTOTYPE' took 2.122
-[2018.10.18-02.51.25:448][678]Cmd: MAP LOAD FILE="../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/TESTPROTOTYPE.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.18-02.51.25:448][678]LightingResults: New page: Lighting Build
-[2018.10.18-02.51.25:449][678]LoadErrors: New page: Loading map: TESTPROTOTYPE.umap
-[2018.10.18-02.51.25:455][678]MapCheck: New page: Map Check
-[2018.10.18-02.51.25:455][678]LightingResults: New page: Lighting Build
-[2018.10.18-02.51.25:503][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.18-02.51.25:540][678]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.18-02.51.25:602][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.101ms to complete.
-[2018.10.18-02.51.25:603][678]LogFileHelpers: Loading map 'TESTPROTOTYPE' took 0.155
-[2018.10.18-02.51.26:962][824]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2018.10.18-02.51.29:088][845]LogSavePackage: Save=1863.15ms
-[2018.10.18-02.51.29:088][845]LogSavePackage: Moving '../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Saved/TESTPROTOTYPE017E34C24B7EB5A82AA8B8AA48945A7E.tmp' to '../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/TESTPROTOTYPE.umap'
-[2018.10.18-02.51.29:095][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s181529/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/TESTPROTOTYPE.umap
+[2018.10.18-02.56.19:642][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-02.56.19:642][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-02.56.19:674][  0]LogInit: Computer: SYD-1C8525
+[2018.10.18-02.56.19:674][  0]LogInit: User: s181543
+[2018.10.18-02.56.19:674][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-02.56.19:674][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2018.10.18-02.56.19:674][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.18-02.56.19:674][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-02.56.19:674][  0]LogMemory: Process Physical Memory: 275.91 MB used, 275.91 MB peak
+[2018.10.18-02.56.19:674][  0]LogMemory: Process Virtual Memory: 273.59 MB used, 273.59 MB peak
+[2018.10.18-02.56.19:674][  0]LogMemory: Physical Memory: 8384.18 MB used,  24270.94 MB free, 32655.12 MB total
+[2018.10.18-02.56.19:674][  0]LogMemory: Virtual Memory: 628.43 MB used,  24270.94 MB free, 8388608.00 MB total
+[2018.10.18-02.56.19:839][  0]LogInit: Using OS detected language (en-AU).
+[2018.10.18-02.56.19:839][  0]LogInit: Using OS detected locale (en-AU).
+[2018.10.18-02.56.19:843][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
+[2018.10.18-02.56.20:190][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.10.18-02.56.20:190][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.10.18-02.56.20:190][  0]LogInit: Setting process to DPI aware
+[2018.10.18-02.56.20:194][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.10.18-02.56.20:194][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.10.18-02.56.20:194][  0]LogInit: Setting process to DPI aware
+[2018.10.18-02.56.20:514][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-02.56.20:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2018.10.18-02.56.20:534][  0]LogD3D11RHI:       1989/0/16071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.18-02.56.20:534][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-02.56.20:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-02.56.20:541][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-02.56.20:541][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-02.56.20:541][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2018.10.18-02.56.20:541][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2018.10.18-02.56.20:541][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2018.10.18-02.56.20:541][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2018.10.18-02.56.20:542][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.10.18-02.56.20:542][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.10.18-02.56.20:542][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.10.18-02.56.20:542][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.18-02.56.20:542][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2018.10.18-02.56.20:542][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2018.10.18-02.56.20:542][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2018.10.18-02.56.20:542][  0]LogRHI: Texture pool is 1392 MB (70% of 1989 MB)
+[2018.10.18-02.56.20:551][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-02.56.20:565][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.18-02.56.20:659][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Intermediate/Shaders/WorkingDirectory/10608/).
+[2018.10.18-02.56.20:659][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s181543/AppData/Local/Temp/UnrealShaderWorkingDir/9FBEBE3445BC50D4FBA7C590519B2A03/'.
+[2018.10.18-02.56.20:659][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-02.56.21:601][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-02.56.21:669][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-02.56.21:734][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-02.56.21:801][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-02.56.21:868][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-02.56.21:937][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-02.56.22:005][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-02.56.22:070][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-02.56.22:130][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-02.56.22:195][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.18-02.56.22:259][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.18-02.56.22:324][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.18-02.56.22:389][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.18-02.56.22:454][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.18-02.56.22:583][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.18-02.56.22:583][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.18-02.56.22:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-02.56.22:703][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-02.56.22:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-02.56.22:841][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-02.56.22:905][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-02.56.22:969][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-02.56.23:034][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-02.56.23:099][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-02.56.23:099][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-02.56.23:653][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/s181543/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s181543/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-02.56.23:728][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-02.56.23:744][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-02.56.23:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s181543/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-02.56.23:765][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-02.56.23:766][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.18-02.56.23:767][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-02.56.23:767][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-02.56.24:126][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-02.56.24:511][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-02.56.24:565][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-02.56.24:565][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-02.56.24:565][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-02.56.24:565][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.18-02.56.24:565][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.18-02.56.24:598][  0]LogNetVersion: FPSProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2209681646)
+[2018.10.18-02.56.24:779][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2018.10.18-02.56.25:323][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.076817 seconds
+[2018.10.18-02.56.25:328][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.10.18-02.56.25:328][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.10.18-02.56.25:328][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.18-02.56.25:390][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.10.18-02.56.28:534][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.18-02.56.28:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.18-02.56.29:218][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
+[2018.10.18-02.56.29:218][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Assets/GoblinLowPoly.uasset.
+[2018.10.18-02.56.29:218][  0]LoadErrors: Error: /Game/5329_Goblins/Assets/GoblinLowPoly : Can't find file for asset. /Game/5329_Goblins/Assets/Basic
+[2018.10.18-02.56.29:218][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
+[2018.10.18-02.56.29:218][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Assets/GoblinLowPoly.uasset.
+[2018.10.18-02.56.29:218][  0]LoadErrors: Error: /Game/5329_Goblins/Assets/GoblinLowPoly : Can't find file for asset. /Game/5329_Goblins/Assets/Basic
+[2018.10.18-02.56.29:219][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
+[2018.10.18-02.56.29:219][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by GoblinLowPoly
+[2018.10.18-02.56.29:219][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading NULL.
+[2018.10.18-02.56.29:219][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by GoblinLowPoly
+[2018.10.18-02.56.29:219][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Assets/Basic'
+[2018.10.18-02.56.29:219][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by GoblinLowPoly
+[2018.10.18-02.56.29:219][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Assets/Basic' while loading NULL.
+[2018.10.18-02.56.29:219][  0]LoadErrors: Failed to load /Game/5329_Goblins/Assets/Basic.Basic Referenced by GoblinLowPoly
+[2018.10.18-02.56.29:530][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.18-02.56.30:077][  0]SourceControl: Source control is disabled
+[2018.10.18-02.56.30:077][  0]SourceControl: Source control is disabled
+[2018.10.18-02.56.30:148][  0]SourceControl: Source control is disabled
+[2018.10.18-02.56.30:218][  0]SourceControl: Source control is disabled
+[2018.10.18-02.56.31:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.18-02.56.31:646][  0]LogOcInput: OculusInput pre-init called
+[2018.10.18-02.56.31:994][  0]LogEngine: Initializing Engine...
+[2018.10.18-02.56.31:996][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-02.56.32:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-02.56.32:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-02.56.32:401][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.18-02.56.32:414][  0]LogInit: No audio devices found!
+[2018.10.18-02.56.32:500][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/s181543/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.18-02.56.32:512][  0]LogInit: Texture streaming: Enabled
+[2018.10.18-02.56.32:632][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.18-02.56.32:803][  0]LogInit: Transaction tracking system initialized
+[2018.10.18-02.56.33:228][  0]BlueprintLog: New page: Editor Load
+[2018.10.18-02.56.34:444][  0]LocalizationService: Localization service is disabled
+[2018.10.18-02.56.35:509][  0]LogConsoleResponse: Display: 
+[2018.10.18-02.56.35:679][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.18-02.56.35:679][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.18-02.56.35:679][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.18-02.56.36:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/' took 0.01s
+[2018.10.18-02.56.36:513][  0]LogLinker: Warning: The file '../../../Engine/Content/BasicShapes/Cube.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.10.18-02.56.36:513][  0]LogLinker: Warning: The file '../../../Engine/Content/BasicShapes/Cube.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.10.18-02.56.36:513][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2018.10.18-02.56.37:257][  0]SourceControl: Source control is disabled
+[2018.10.18-02.56.37:258][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-02.56.37:258][  0]LightingResults: New page: Lighting Build
+[2018.10.18-02.56.37:314][  0]MapCheck: New page: Map Check
+[2018.10.18-02.56.37:314][  0]LightingResults: New page: Lighting Build
+[2018.10.18-02.56.37:537][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
+[2018.10.18-02.56.37:537][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap.
+[2018.10.18-02.56.37:537][  0]LoadErrors: Error: /Game/5329_Goblins/Maps/MainWorld : Can't find file for asset. /Game/5329_Goblins/Maps/MainWorld_BuiltData
+[2018.10.18-02.56.37:539][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
+[2018.10.18-02.56.37:539][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading ../../../../../../Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/5329_Goblins/Maps/MainWorld.umap.
+[2018.10.18-02.56.37:539][  0]LoadErrors: Error: /Game/5329_Goblins/Maps/MainWorld : Can't find file for asset. /Game/5329_Goblins/Maps/MainWorld_BuiltData
+[2018.10.18-02.56.37:542][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
+[2018.10.18-02.56.37:542][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
+[2018.10.18-02.56.37:542][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
+[2018.10.18-02.56.37:542][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
+[2018.10.18-02.56.37:709][  0]LogLinker: Warning: Can't find file '/Game/5329_Goblins/Maps/MainWorld_BuiltData'
+[2018.10.18-02.56.37:709][  0]LoadErrors: Failed to load /Game/5329_Goblins/Maps/MainWorld_BuiltData.MainWorld_BuiltData Referenced by PersistentLevel
+[2018.10.18-02.56.37:709][  0]LogLinker: Warning: Can't find file for asset '/Game/5329_Goblins/Maps/MainWorld_BuiltData' while loading NULL.
+[2018.10.18-02.56.37:709][  0]LoadErrors: Failed to load /Game/5329_Goblins/Maps/MainWorld_BuiltData.MainWorld_BuiltData Referenced by PersistentLevel
+[2018.10.18-02.56.38:043][  0]LogAIModule: Creating AISystem for world MainWorld
+[2018.10.18-02.56.38:095][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-02.56.38:112][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-02.56.38:180][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.399ms to complete.
+[2018.10.18-02.56.38:180][  0]LogFileHelpers: Loading map 'MainWorld' took 0.923
+[2018.10.18-02.56.38:389][  0]LogCollectionManager: Loaded 0 collections in 0.001182 seconds
+[2018.10.18-02.56.38:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Saved/Collections/' took 0.01s
+[2018.10.18-02.56.38:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/Developers/s181543/Collections/' took 0.01s
+[2018.10.18-02.56.38:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/Collections/' took 0.01s
+[2018.10.18-02.56.38:487][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.18-02.56.38:495][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2373 classes and 524 folders.
+[2018.10.18-02.56.38:582][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.18-02.56.38:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.18-02.56.38:627][  0]LogLinker: Warning: The file '../../../Engine/Content/BasicShapes/Cube.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.10.18-02.56.38:627][  0]LogLinker: Warning: The file '../../../Engine/Content/BasicShapes/Cube.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.10.18-02.56.38:663][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.18-02.56.38:666][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.18-02.56.38:669][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.18-02.56.38:756][  0]LogRenderer: Reallocating scene render targets to support 972x620 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-02.56.39:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.10.18-02.56.39:109][  0]LogLoad: (Engine Initialization) Total time: 22.59 seconds
+[2018.10.18-02.56.39:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.18-02.56.39:109][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.10.18-02.56.39:146][  0]LogAssetRegistry: Asset discovery search completed in 14.3878 seconds
+[2018.10.18-02.56.39:148][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.18-02.56.39:148][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2018.10.18-02.56.39:152][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.18-02.56.39:225][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.10.18-02.56.39:238][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s181543/Documents/GitHub/5329-Goblins/FPSProject/Content/' took 0.11s
