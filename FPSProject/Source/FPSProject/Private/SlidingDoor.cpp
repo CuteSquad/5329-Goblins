@@ -62,14 +62,6 @@ void ASlidingDoor::BeginPlay()
 		Timeline->SetTimelineLength(Speed);
 		Timeline->RegisterComponent();
 	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("No Curve Float object found!"));
-
-		CurveFloat = NewObject<UCurveFloat>(this, UCurveFloat::StaticClass(), FName("DoorSlideTime"));
-		CurveFloat->FloatCurve.AddKey(0, 0);
-		CurveFloat->FloatCurve.AddKey(2.5, 1);
-	}
 
 	// Door Setup
 	CurrentLocation = StaticMeshComponent->GetComponentLocation();
