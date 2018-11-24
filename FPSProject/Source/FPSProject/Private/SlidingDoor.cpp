@@ -1,6 +1,7 @@
 // Copyright © 2018, AJACKS
 
 #include "SlidingDoor.h"
+#include "FirstPersonCharacter.h"
 
 ASlidingDoor::ASlidingDoor()
 {
@@ -77,7 +78,10 @@ void ASlidingDoor::Tick(float DeltaTime)
 
 void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	Timeline->Play();
+	if (OtherActor == UGameplayStatics::GetPlayerCharacter(this, 0))
+	{
+		Timeline->Play();
+	}
 
 	const float TimelineValue = Timeline->GetPlaybackPosition();
 	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue); // Get the value of the timeline and feed into the curve float for lerping between start and end location
