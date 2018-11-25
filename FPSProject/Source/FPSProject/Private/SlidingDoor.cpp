@@ -39,6 +39,7 @@ ASlidingDoor::ASlidingDoor()
 	CurveFloat = Cast<UCurveFloat>(StaticLoadObject(UCurveFloat::StaticClass(), nullptr, TEXT("CurveFloat'/Game/5329_Goblins/CurveFloats/DoorSlideTime.DoorSlideTime'")));
 
 	// Other settings
+	SpecificActor = Cast<AActor>(UGameplayStatics::GetPlayerPawn(this, 0));
 	this->bCanBeDamaged = false;
 }
 
