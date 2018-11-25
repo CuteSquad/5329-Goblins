@@ -43,6 +43,9 @@ private:
 	UPROPERTY(EditInstanceOnly)
 		UCurveFloat* CurveFloat = nullptr; // Used with the timeline and fed into the Lerp alpha parameter.
 
+	UPROPERTY(EditInstanceOnly, Category = "Trigger", meta = (ToolTip = "Which actor should the door listen to?"))
+		AActor* SpecificActor = Cast<AActor>(UGameplayStatics::GetPlayerPawn(this, 0));
+
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "Should the door slide sideways?"))
 		bool Sideways = false;
 

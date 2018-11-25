@@ -78,7 +78,8 @@ void ASlidingDoor::Tick(float DeltaTime)
 
 void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	if (OtherActor == UGameplayStatics::GetPlayerCharacter(this, 0))
+	 // If OtherActor is valid AND if the OtherActor is not of this class (SlidingDoor) AND is a "Specified actor" from the details panel
+	if (OtherActor && (OtherActor != this) && OtherActor == SpecificActor)
 	{
 		Timeline->Play();
 
