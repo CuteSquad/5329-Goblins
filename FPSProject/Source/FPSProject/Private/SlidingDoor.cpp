@@ -6,6 +6,8 @@
 ASlidingDoor::ASlidingDoor()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	static UObject* WorldContextAnchor;
+	WorldContextAnchor = this;
 
 	// Root Component
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root Scene"));
