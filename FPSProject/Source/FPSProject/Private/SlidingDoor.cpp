@@ -77,7 +77,13 @@ void ASlidingDoor::Tick(float DeltaTime)
 
 void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	Timeline->Play();
+	if (OtherActor && OtherActor != this && OtherActor == UGameplayStatics::GetPlayerPawn(GetWorld(), 0))
+	{
+		Timeline->Play();
+
+		if (IsValid(TriggerBoxComponent) && CurveFloat != nullptr)
+			TriggerBoxComponent->DestroyComponent(); // Destroy the trigger box once the door has opened.
+	}
 
 	const float TimelineValue = Timeline->GetPlaybackPosition();
 	const float CurveFloatValue = CurveFloat->GetFloatValue(TimelineValue); // Get the value of the timeline and feed into the curve float for lerping between start and end location
@@ -88,7 +94,4 @@ void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* Other
 		EndLocation = FVector(CurrentLocation.X, CurrentLocation.Y, CurrentLocation.Z - ZSlide); // Minus the Z axis to set the end location
 
 	StaticMeshComponent->SetWorldLocation(FMath::Lerp(CurrentLocation, EndLocation, CurveFloatValue)); // Move the door smoothly from current location to the end location
-
-	if (IsValid(TriggerBoxComponent) && CurveFloat != nullptr)
-		TriggerBoxComponent->DestroyComponent(); // Destroy the trigger box once the door has opened.
 }
