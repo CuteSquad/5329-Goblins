@@ -58,6 +58,9 @@ private:
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "How fast should the door slide? (0=No movement 1=Normal 2+=Fast)"))
 		float Speed = 1;
 
+	UPROPERTY(EditInstanceOnly, Category = "Sound", meta = (ToolTip = "Which sound file should the door play when opening?"))
+		USoundBase* DoorSlidingSound = nullptr;
+
 	FVector CurrentLocation = FVector(0, 0, 0); // For reference when we begin play, so we can Lerp between start and end location
 	FVector EndLocation = FVector(0, 0, 0);
 };
