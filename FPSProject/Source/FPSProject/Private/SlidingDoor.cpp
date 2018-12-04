@@ -82,7 +82,7 @@ void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* Other
 		Timeline->Play();
 
 		if (DoorSlidingSound)
-		UGameplayStatics::PlaySoundAtLocation(this, DoorSlidingSound, GetActorLocation());
+			UGameplayStatics::PlaySoundAtLocation(this, DoorSlidingSound, GetActorLocation());
 
 		if (IsValid(TriggerBoxComponent) && CurveFloat != nullptr)
 			TriggerBoxComponent->DestroyComponent(); // Destroy the trigger box once the door has opened.
