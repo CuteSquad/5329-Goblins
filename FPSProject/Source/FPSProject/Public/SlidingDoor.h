@@ -9,6 +9,8 @@
 #include "Components/TimelineComponent.h"
 #include "Engine/StaticMesh.h"
 #include "Kismet/GameplayStatics.h"
+#include "FirstPersonCharacter.h"
+#include "GoblinSpawner.h"
 #include "SlidingDoor.generated.h"
 
 UCLASS(hidecategories = ("Input", "Actor", "HLOD"))
@@ -26,6 +28,9 @@ protected:
 	UFUNCTION()
 		void Slide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 
+	UPROPERTY(EditInstanceOnly, Category = "Door", meta = (ToolTip = "Add the amount of spawners needed into this array to calculate the amount of goblins needed to kill before the door can open"))
+	TArray<AGoblinSpawner*> GoblinSpawners;
+
 private:
 	USceneComponent* Root = nullptr;
 	
@@ -42,6 +47,9 @@ private:
 
 	UPROPERTY(EditInstanceOnly)
 		UCurveFloat* CurveFloat = nullptr; // Used with the timeline and fed into the Lerp alpha parameter.
+
+	UPROPERTY(VisibleAnywhere, Category = "Door", meta = (ToolTip = "How many Goblins should be killed to open this door?"))
+		uint16 GoblinsToKill = 0;
 
 	UPROPERTY(EditInstanceOnly, Category = "Slide", meta = (ToolTip = "Should the door slide sideways?"))
 		bool Sideways = false;
@@ -63,4 +71,6 @@ private:
 
 	FVector CurrentLocation = FVector(0, 0, 0); // For reference when we begin play, so we can Lerp between start and end location
 	FVector EndLocation = FVector(0, 0, 0);
+
+	AFirstPersonCharacter* PlayerCharacter = nullptr;
 };

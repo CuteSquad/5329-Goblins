@@ -1,6 +1,7 @@
 // Copyright © 2018, AJACKS
 
 #include "SlidingDoor.h"
+#include "../../../../../../../../../Program Files/Epic Games/UE_4.18/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Private/ActorSequencePrivatePCH.h"
 
 ASlidingDoor::ASlidingDoor()
 {
@@ -65,6 +66,18 @@ void ASlidingDoor::BeginPlay()
 
 	// Door Setup
 	CurrentLocation = StaticMeshComponent->GetComponentLocation();
+
+	// Player reference
+	PlayerCharacter = Cast<AFirstPersonCharacter>(UGameplayStatics::GetPlayerCharacter(this, 0));
+
+	// Calculate the amount of goblins to kill from the GoblinSpawners array
+	if (!GoblinSpawners.Num() == 0)
+	{
+		for (int32 i = 0; i < GoblinSpawners.Num(); i++)
+		{
+			GoblinsToKill += GoblinSpawners[i]->Goblins;
+		}
+	}
 }
 
 void ASlidingDoor::Tick(float DeltaTime)
@@ -77,9 +90,11 @@ void ASlidingDoor::Tick(float DeltaTime)
 
 void ASlidingDoor::Slide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	if (OtherActor && OtherActor != this && OtherActor == UGameplayStatics::GetPlayerPawn(GetWorld(), 0))
+	if (OtherActor && OtherActor != this && OtherActor == UGameplayStatics::GetPlayerPawn(GetWorld(), 0) && GoblinsToKill == PlayerCharacter->GoblinsKilledForDoorUnlock)
 	{
 		Timeline->Play();
+
+		PlayerCharacter->GoblinsKilledForDoorUnlock = 0;
 
 		if (DoorSlidingSound)
 			UGameplayStatics::PlaySoundAtLocation(this, DoorSlidingSound, GetActorLocation());
